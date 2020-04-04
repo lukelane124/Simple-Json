@@ -1,0 +1,12 @@
+BASIC INFO
+simpleJson: A very simple minimal json library which tried to operate in fixed memory, but CAN be compiled to process very large datasets which make fixed memory allocation difficult.
+
+BUILD
+	make 
+	Creates the basic program without dynamic memory support.
+
+	make LARGE_SET=1
+	Builds with large data sets and memory in mind.
+
+LICENSE
+basic MIT license. See LICENSE for more details
